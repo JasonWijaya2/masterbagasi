@@ -41,7 +41,15 @@ const Item: React.FC<ItemProps> = ({ product, onToggleSelect }) => {
             <h3 className='mb-2 text-left sm:truncate'>
               {product.title}
             </h3>
-            <select className='border mb-4 pr-4' onChange={(e) => handleVariantChange(product.variants[parseInt(e.target.value)])}>
+            <select
+              className='border mb-4 pr-4'
+              value={product.variants.findIndex(v => v.variant === selectedVariant?.variant)}
+              onChange={(e) => {
+                const selectedIndex = parseInt(e.target.value);
+                const newVariant = product.variants[selectedIndex];
+                handleVariantChange(newVariant);
+              }}
+            >
               {product.variants.map((variant, index) => (
                 <option key={index} value={index}>
                   Variant: {variant.variant}
