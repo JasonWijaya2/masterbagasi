@@ -2,7 +2,6 @@ import { Product, Variant } from '../pages/type'
 import { IoTrashOutline } from "react-icons/io5"
 import { removeItem, updateQuantity, updateSelectedVariant } from '@/redux/keranjangSlice'
 import { useDispatch } from 'react-redux'
-import Image from 'next/image'
 
 interface ItemProps {
   product: Product
@@ -36,7 +35,7 @@ const Item: React.FC<ItemProps> = ({ product, onToggleSelect }) => {
         <div className="flex justify-center items-center">
           <input type="checkbox" value="" className="w-4 h-4" checked={product.selected} onChange={onToggleSelect}/>
         </div>
-        <Image src={selectedVariant?.image} alt={selectedVariant?.variant} className='w-20 h-20 md:w-40 md:h-40 border rounded-xl'/>
+        <img src={selectedVariant?.image} alt={selectedVariant?.variant} className='w-20 h-20 md:w-40 md:h-40 border rounded-xl'/>
         <div className='w-full flex flex-col justify-center items-end ml-4'>
           <div>
             <h3 className='mb-2 text-left sm:truncate'>
