@@ -27,3 +27,9 @@ export interface Selected {
   selectAll: boolean;
   selectedItems: number[];
 }
+
+const DummyComponent = () => {
+  
+}
+
+export default DummyComponent;
