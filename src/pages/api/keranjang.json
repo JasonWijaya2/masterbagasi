@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "title": "Aceh Food - Teri Aceh Nasi Kriuk Balado",
+      "variants": [
+        {"price": 86240, "weight": 0.12, "variant": "Sachet", "image": "https://www.masterbagasi.com/_next/image?url=https%3A%2F%2Fapi.masterbagasi.com%2Fstorage%2Fproduct%2F9dbf737f-e7cf-401e-99c5-894a037f9258%2FzwGoKLYLY3qQph8XjilyMfPu9mMGJ9hq9bQJnzRn-d55a8691-66e3-47ad-ae85-598d86e29a5a.jpg&w=640&q=75"},
+        {"price": 73480, "weight": 0.12, "variant": "Kaleng", "image": "https://www.masterbagasi.com/_next/image?url=https%3A%2F%2Fapi.masterbagasi.com%2Fstorage%2Fproduct%2F9dbf737f-e7cf-401e-99c5-894a037f9258%2FTbeQvljBIyp4YojcgECckmUWvMJWRhdnLapOw9yl-f5498c4e-fc9a-4f19-8723-d447afeb05c2.jpg&w=640&q=75"}
+      ],
+      "quantity": 1,
+      "selected": false,
+      "selectedVariant": null
+    },
+    {
+      "id": 2,
+      "title": "WoCA - Robusta Jawa",
+      "variants": [
+        {"price": 47300, "weight": 0.2, "variant": "Giling Halus", "image": "https://www.masterbagasi.com/_next/image?url=https%3A%2F%2Fapi.masterbagasi.com%2Fstorage%2Fproduct%2F0ad25910-d357-4dd3-87c5-051c5cdbcbd2%2F1vnHVTIkgPhdV5VKNjGPPl4jyQacJrSpSL6sjgig-958550bf-b3a4-46f2-9e0f-518f2dbc4be2.png&w=640&q=75"},
+        {"price": 47300, "weight": 0.2, "variant": "Biji", "image": "https://www.masterbagasi.com/_next/image?url=https%3A%2F%2Fapi.masterbagasi.com%2Fstorage%2Fproduct%2F0ad25910-d357-4dd3-87c5-051c5cdbcbd2%2F1vnHVTIkgPhdV5VKNjGPPl4jyQacJrSpSL6sjgig-958550bf-b3a4-46f2-9e0f-518f2dbc4be2.png&w=640&q=75"},
+        {"price": 47300, "weight": 0.2, "variant": "Giling Kasar", "image": "https://www.masterbagasi.com/_next/image?url=https%3A%2F%2Fapi.masterbagasi.com%2Fstorage%2Fproduct%2F0ad25910-d357-4dd3-87c5-051c5cdbcbd2%2F1vnHVTIkgPhdV5VKNjGPPl4jyQacJrSpSL6sjgig-958550bf-b3a4-46f2-9e0f-518f2dbc4be2.png&w=640&q=75"},
+        {"price": 47300, "weight": 0.2, "variant": "Giling Sedang", "image": "https://www.masterbagasi.com/_next/image?url=https%3A%2F%2Fapi.masterbagasi.com%2Fstorage%2Fproduct%2F0ad25910-d357-4dd3-87c5-051c5cdbcbd2%2F1vnHVTIkgPhdV5VKNjGPPl4jyQacJrSpSL6sjgig-958550bf-b3a4-46f2-9e0f-518f2dbc4be2.png&w=640&q=75"}
+      ],
+      "quantity": 1,
+      "selected": false,
+      "selectedVariant": null
+    },
+    {
+      "id": 3,
+      "title": "Munik - Bumbu Opor Ayam",
+      "variants": [
+        {"price": 41481, "weight": 0.065, "variant": "Opor Ayam", "image": "https://api.masterbagasi.com/storage/product/c21d2116-3690-4ddf-9d35-7ae3500d7edb/u5TS7D5AfqyQAO1LFGBPwTqCkFW2WBUCnokuxJjw-6ec29c3b-c041-44d2-9112-6e90150caa22.png"}
+      ],
+      "quantity": 1,
+      "selected": false,
+      "selectedVariant": null
+    }
+  ]
+  
